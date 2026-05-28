@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "TravassyxAssistedRemediation",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:StopInstances",
+        "ec2:ModifyInstanceAttribute",
+        "ec2:CreateTags",
+        "elasticloadbalancing:AddTags",
+        "rds:AddTagsToResource"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

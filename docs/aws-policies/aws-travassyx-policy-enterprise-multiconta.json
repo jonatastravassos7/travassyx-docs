@@ -1,0 +1,62 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "TravassyxBasicInventoryReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:Describe*",
+        "rds:Describe*",
+        "rds:ListTagsForResource",
+        "s3:ListAllMyBuckets",
+        "s3:GetBucketLocation",
+        "s3:GetBucketTagging",
+        "elasticloadbalancing:Describe*",
+        "cloudwatch:GetMetricData",
+        "cloudwatch:GetMetricStatistics",
+        "cloudwatch:ListMetrics"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "TravassyxFinOpsEssentialReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "ce:GetCostAndUsage",
+        "ce:GetDimensionValues",
+        "ce:GetTags",
+        "savingsplans:DescribeSavingsPlans"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "TravassyxSmartOptimizationReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "compute-optimizer:GetEnrollmentStatus",
+        "compute-optimizer:GetEC2InstanceRecommendations",
+        "support:DescribeTrustedAdvisorChecks",
+        "support:DescribeTrustedAdvisorCheckResult"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "TravassyxEnterpriseBillingReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "organizations:DescribeOrganization",
+        "organizations:ListAccounts",
+        "organizations:ListParents",
+        "organizations:DescribeOrganizationalUnit",
+        "organizations:ListTagsForResource",
+        "ce:GetCostCategories",
+        "ce:ListCostCategoryDefinitions",
+        "ce:GetAnomalies",
+        "ce:GetAnomalyMonitors",
+        "ce:GetCostForecast",
+        "cur:DescribeReportDefinitions"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
