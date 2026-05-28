@@ -31,14 +31,9 @@ Ela ajuda equipes de infraestrutura, NOC, gestão e FinOps a responder:
 - [Dependências open-source](docs/dependencias-open-source.md)
 - [Segurança e reporte responsável](SECURITY.md)
 
-## O Que Não Entra Neste Repositório
-
-Este repositório não contém código-fonte da plataforma, segredos, scripts internos de release, preços comerciais negociados, roadmap interno, EULA exclusivo, credenciais, chaves, tokens ou informações sensíveis de clientes.
-
 ## Links Oficiais
 
 - Console e servidor central de licenças: `https://console.travassyx.com`
-- Imagens runtime oficiais: `registry.travassyx.com/travassyx`
 
 ## Suporte
 
