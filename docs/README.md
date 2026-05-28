@@ -25,7 +25,3 @@ Esta área reúne documentos que podem ser compartilhados com clientes, parceiro
 ## Segurança
 
 - [Segurança e reporte responsável](../SECURITY.md)
-
-## Observação
-
-Documentos internos de engenharia, estratégia, release, preço, roadmap e operação do SaaS central não são publicados aqui.
